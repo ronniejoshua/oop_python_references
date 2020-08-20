@@ -29,7 +29,6 @@ class Book:
 
 
 # "The "frozen" parameter makes the class immutable
-
 @dataclass(frozen=True)
 class ImmutableClass:
     value_one: str = "Value 1"
